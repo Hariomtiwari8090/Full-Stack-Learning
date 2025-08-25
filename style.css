@@ -1,0 +1,62 @@
+/* Center the whole body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   /* Full screen height */
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Form box */
+.form-container {
+    width: 350px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Centered heading */
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #2c3e50; /* Line under heading */
+}
+
+/* Labels */
+label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"] {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #888;
+    border-radius: 5px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #27ae60;
+}
